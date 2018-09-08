@@ -452,10 +452,14 @@ g.each-location.active circle {
 
 a.location-blurb-link {
     /*display:inline;*/
+    /*text-decoration: none;*/
+    display:inline-block;
     color: var(--pointgreen);
-    font: var(--Quicksand-500);
+    /*font: var(--Quicksand-500);*/
     /*background-color:blue;*/
 }
+
+
 
 li.active>a {
     color: var(--pointblue) !important;
@@ -599,14 +603,25 @@ p.location-blurb-title {
     mix-blend-mode: multiply;
 }
 
-#banner-text {
+.banner-text {
+    display:inline-block !important;
     margin-top: 2vh;
     color: white;
     /*font: var(--Quicksand-400);*/
     font: var(--SourceSansPro);
-    font-size: 0.9rem;
+
+    font-size: 1rem;
+    line-height:1.4rem;
 }
 
+a.banner-link {
+    line-height: 1rem;
+    display:inline-block !important;
+    text-decoration:underline;
+    color:white;
+    font-weight: 600;
+
+}
     .weather-widget {
         right: 2vw !important;
     }
@@ -625,6 +640,10 @@ p.location-blurb-title {
 
     }
 
+    #contest-title {
+        font:var(--Anton);
+        font-size: 3rem;
+    }
 
     @media only screen and (max-width:1134px) {
         #svg-code {
@@ -639,6 +658,27 @@ p.location-blurb-title {
             /*background-color:orange;*/
             }
     }
+
+    .tab-heading {
+        font-weight: 700;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+    }
+
+    #tab-titles {
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+    }
+    a.social-media-link {
+        color:var(--pointblue) !important;
+
+    }
+    a.social-media-link:hover{
+        text-decoration:none !important;
+        color:var(--pointblueHover) !important;
+     }
 	</style>
 
 <style type="text/css">
@@ -664,7 +704,7 @@ p.location-blurb-title {
 	This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
 	Creation Date: 10/24/2017
 	-->
-	<script type=""text/javascript"">
+follow us on 	<script type=""text/javascript"">
 	var axel = Math.random() + """";
 	var a = axel * 10000000000000;
 	document.write('<iframe src=""https://5424500.fls.doubleclick.net/activityi;src=5424500;type=calg;cat=trave000;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?"" width=""1"" height=""1"" frameborder=""0"" style=""display:none""></iframe>');
@@ -35535,8 +35575,9 @@ p.location-blurb-title {
         </div>
         <div id=section-text>
             <p id=changing-text>TRUE</p> <p id=animate-text></p>
-            <p id=we-love-winter>#WELOVEWINTER</p>
-            <p id=banner-text>Travel through two of Canada's largest National Parks, home to unspoiled wilderness and one of the world’s most scenic drives, the Icefields Parkway. From hitting the slopes at one of our world-class ski resorts to dogsledding the Continental Divide; or viewing the aurora borealis from the dark skies of Jasper to celebrating Ice Magic in Lake Louise, our True North Rockies delivers an unparalleled winter escape.</p>
+            <p id=we-love-winter>Winter is Coming to the Canadian Rockies, are you?</p>
+            <p class=banner-text>Book your Canadian Rockies winter adventure, where you’ll experience the ultimate winter playgrounds: <a href="https://www.banfflakelouise.com/winter?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" class=banner-link>Banff</a>, <a href="https://www.banfflakelouise.com/lake-louise?genid=truenorth_bllt_lalelouise&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=lalelouise" class=banner-link>Lake Louise</a>, and <a href="https://www.fairmont.com/jasper/promotions/true-north-rockies/?genid=true_north_jpl_99_ways&utm_source=true_north&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=99_ways" class=banner-link>Jasper</a>, Alberta. Start your adventure by flying into  <a href="https://exploreedmonton.com/?genid=truenorth" class=banner-link>Edmonton</a> or Calgary, two of Canada’s most dynamic winter cities and gateways to the Canadian Rockies. Here you’ll experience the arts, winter festivals, authentic local dining & endless activities.</p>
+             <p class=banner-text>Travel through two of Canada's largest National Parks, home to unspoiled wilderness and one of the world’s most scenic drives, the Icefields Parkway. From hitting the slopes at one of our <a href="http://blog.truenorthrockies.com/2017/12/04/number-two/" class=banner-link>world-class ski resorts</a> to dogsledding the Continental Divide; or viewing the Aurora Borealis from the dark skies of Jasper to celebrating <a href="http://blog.truenorthrockies.com/2018/01/28/discover-magic-in-lake-louise/" class=banner-link>Ice Magic</a> in Lake Louise, our True North Rockies delivers an unparalleled winter escape.</p>
         </div>
     </div>
 
@@ -35626,7 +35667,7 @@ p.location-blurb-title {
                     </div><!-- end /.g-box -->
                     <div class="g-box g-box-2-anim" data-box="#true7" data-row="#row2" data-next-row="#row3">
                         <div class="thumb-wrap">
-                            <img src="images/tiles/true_powder.gif" alt="">
+                            <img src="images/tiles/true_power.gif" alt="">
                             <div class="g-box-hovered text-center">
                                 <h2>True Powder</h2>
                                 <p>We Invented It</p>
@@ -35670,7 +35711,7 @@ p.location-blurb-title {
 										<p class="luxury">Explore the "Castle in the Rockies", one of Canada's most iconic and majestic hotels in North America. This luxury mountain resort offers access to world-class skiing, an award winning European Spa and authentically local dining experiences.
 										<br>
 										<br>
-										Book Now and save up to 25%.
+										Book Now and Save Up to 40%
 										<br>
 										<br>
 										<br>
@@ -35683,12 +35724,13 @@ p.location-blurb-title {
 									<div>
 										<h4>Fairmont Chateau Lake Louise</h4>
 										<p class="luxury">Located in Banff National Park, the iconic Fairmont Chateau Lake Louise is a year-round luxury mountain resort offering guided mountain snowshoeing and one of the world's most spectacular outdoor skating rinks in the winter.
-										<br>
-										<br>
-										Book Now and receive your 6th &amp; 7th nights free + $350CAD activity credit.
-										<br>
-										<br>
-										<em>With low-season room rates and a great exchange, your US dollar takes you further in Canada!</em></p>
+										  <br>
+                                        <br>
+                                        Book Now and receive your 6th & 7th nights free + $350CAD activity credit
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <em>With favorable room rates and a great exchange, your US dollar takes you further in Canada!</em></p>
 										<a href="http://www.fairmont.com/lake-louise/promotions/true-north-rockies" class="btn-default" target="_blank"><span class="btn-text">Book your Winter Vacation</span><span class="ico-external"></span></a>
 									</div>
 								</div><!-- end /.expanded-1-3 -->
@@ -35697,13 +35739,13 @@ p.location-blurb-title {
 									<div>
 										<h4>Fairmont Jasper Park Lodge</h4>
 										<p class="luxury">This 700-acre luxury mountain resort wraps around the shores of Lac Beauvert. The resort's charming rustic village of cedar chalets and Signature Cabins, all connected by picturesque paths, offer guests unique access to endless winter activities.
-										<br>
-										<br>
-										Book Now and receive a $99 Daily Activity Credit or Marmot basin Lift Tickets.
-										<br>
-										<br>
-										<br>
-										<em>With low-season room rates and a great exchange, your US dollar takes you further in Canada!</em></p>
+										  <br>
+                                        <br>
+                                        Book Now and receive a $99 Daily Activity Credit
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <em>With favorable room rates and a great exchange, your US dollar takes you further in Canada!</em></p>
 										<a href="http://www.fairmont.com/jasper/promotions/true-north-rockies/?genid=truenorth_jpl_99ways&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=99ways" class="btn-default" target="_blank"><span class="btn-text">Book your Winter Vacation</span><span class="ico-external"></span></a>
 									</div>
 								</div><!-- end /.expanded-1-3 -->
@@ -36163,7 +36205,7 @@ p.location-blurb-title {
 				<p>Select a True North Canadian Rockies destination to see your endless adventure options.</p>
 			</div><!-- end /.default-title -->
 			<div class="tab-wrap">
-				<ul class="select-tab no-style el-iblock">
+				<ul id=tab-titles class="select-tab no-style el-iblock">
 					<li><a href="#tab-1" class="active">Banff</a></li>
 					<li><a href="#tab-2">Lake Louise</a></li>
 					<li><a href="#tab-3">Jasper</a></li>
@@ -36191,10 +36233,10 @@ p.location-blurb-title {
 								</div><!-- end /.p-bottom -->
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-1">
-								<h5>play</h5>
+								<h5 class=tab-heading>play</h5>
 								<ul class="no-style">
-									<li><a href="https://www.canadianmountainholidays.com/?utm_source=True%20North%20Rockies&utm_medium=banner&utm_campaign=True%20North%20Rockies&utm_content=Tile%20Ad" target="_blank">Heli-ski</a></li>
-									<li><a href="http://www.banfflakelouise.com/ski-snowboard?genid=truenorth_bllt_ski&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=ski" target="_blank">Ski & Snowboarding</a></li>
+									<li><a href="https://www.cmhheli.com/heli-skiing?utm_source=True%2520North%2520Rockies&utm_medium=banner&utm_campaign=True%2520North%2520Rockies%2520S19&utm_content=Tile%2520Ad" target="_blank">Heli-ski</a></li>
+									<li><a href=https://www.skibig3.com/three-banff-lake-louise-ski-resorts/?genid=tnr_bsh_ski_big3&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=ski_big3" target="_blank">Ski & Snowboarding</a></li>
 									<li><a href="http://www.chateaumountainsports.com/?genid=truenorth_bllt_rentals&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=rentals" target="_blank">Ski, Skate & Snow Equipment Rentals</a></li>
 									<li><a href="http://www.banfflakelouise.com/snowshoeing?genid=truenorth_bllt_snowshoe&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=snowshoe" target="_blank">SnowShoe</a></li>
 									<li><a href="http://yamnuska.com/ice-climbing/?genid=truenorth_bllt_ice&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=ice" target="_blank">Ice Climbing</a></li>
@@ -36206,37 +36248,63 @@ p.location-blurb-title {
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-2">
-								<h5>relax</h5>
+								<h5 class=tab-heading>relax</h5>
 								<ul class="no-style link-mrbtm">
-									<li><a href="http://www.fairmont.com/banff-springs/willow-stream/?genid=truenorth_bsh_spa&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=spa" target="_blank">Hotel Spa</a></li>
+									<li><a href="https://www.fairmont.com/banff-springs/willow-stream/?genid=truenorth_bsh_spa&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=spa" target="_blank">Willow Stream Spa</a></li>
 									<li><a href="https://www.banfflakelouise.com/banff-hot-springs?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Hot Springs</a></li>
 									<li><a href="http://www.banfflakelouise.com/spa-wellness?genid=truenorth_bllt_wellness&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=wellness" target="_blank" >more>></a></li>
 								</ul>
-								<h5>eat & drink</h5>
+								<h5 class=tab-heading>eat & drink</h5>
 								<ul class="no-style">
 									<li><a href="http://www.fairmont.com/banff-springs/dining/?genid=truenorth_bsh_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=dining" target="_blank">Fairmont Dining</a></li>
 									<li><a href="http://www.1888chophouse.com/?genid=truenorth_ch_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=ch&utm_campaign=dining" target="_blank">1888 Chophouse</a></li>
+
+
+
+                                    <li><a href="https://www.vermillionroom.com/?genid=tnr_bsh_vermillion_room&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=vermillion_room" target="_blank">Vermillion Room</a></li>
+
+                                    <li><a href="https://www.fairmont.com/banff-springs/dining/stock-food-drink/?genid=tnr_bsh_stock&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=stock" target="_blank">Stock Food + Bar</a></li>
+
+
+
 									<li><a href="https://www.banfflakelouise.com/dining-nightlife?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank" >Over 150 Banff Dining Options</a></li>
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-3">
-								<h5>explore & see</h5>
+								<h5 class=tab-heading>explore & see</h5>
 								<ul class="no-style">
 									<li><a href="http://www.banffgondola.com/?genid=truenorth_bg_tnr17&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bg&utm_campaign=tnr17" target="_blank">Banff Gondola</a></li>
-									<li><a href="https://www.banfflakelouise.com/sightseeing-tours?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Wildlife Viewing</a></li>
+									<li><a href="https://www.banfflakelouise.com/blog/wildlife-banff-national-park" target="_blank">Wildlife Viewing</a></li>
 									<li><a href="https://www.banfflakelouise.com/dog-sledding?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Sled Dog Tours</a></li>
 									<li><a href="https://www.banfflakelouise.com/shopping?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Avenue Shopping</a></li>
+                                    <h5 class=tab-heading>events</h5>
+                                <ul class="no-style">
+                                    <li><a href="https://www.banfflakelouise.com/banff-christmas-market?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Christmas Market</a></li>
+                                    <li><a href="https://www.banfflakelouise.com/SantaClausParade?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Santa Clause Parade</a></li>
+                                    <li><a href="http://www.banfflakelouise.com/snowdays?genid=truenorth_bllt_snowdays&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=snowdays" target="_blank">SnowDays</a></li>
+                                    <li><a href="https://www.banfflakelouise.com/ice-magic-festival?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Ice Magic Festival</a></li>
+                                </ul>
 								</ul>
 							</div><!-- end /.inline-box -->
-							<div class="inline-box promo-links pl-2 plr-4">
-								<h5>events</h5>
-								<ul class="no-style">
-									<li><a href="https://www.banfflakelouise.com/banff-christmas-market?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Christmas Market</a></li>
-									<li><a href="https://www.banfflakelouise.com/SantaClausParade?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Santa Clause Parade</a></li>
-									<li><a href="http://www.banfflakelouise.com/snowdays?genid=truenorth_bllt_snowdays&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=snowdays" target="_blank">SnowDays</a></li>
-									<li><a href="https://www.banfflakelouise.com/ice-magic-festival?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Ice Magic Festival</a></li>
-								</ul>
-							</div><!-- end /.inline-box -->
+
+                            <div class="inline-box promo-links pl-2 plr-4">
+                                 <h5 class=tab-heading>Web cams & Videos</h5>
+                                 <ul class="no-style">
+                                    <li><a href="#" target="_blank">Banff Springs Hotel Webcam</a></li>
+                                    <li><a href="https://www.banffjaspercollection.com/attractions/banff-gondola/webcams/?genid=tnr_bsh_gondola&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=gondola#/0" target="_blank">Banff Gondola</a></li>
+                                    <li><a href="https://www.banffnorquay.com/winter/conditions/webcam/?genid=tnr_bsh_norquay&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=norquay" target="_blank">Norquay</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=ptj_ShUQtxw&feature=youtu.be&genid=tnr_bsh_winter&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=winter" target="_blank">Banff Winter Vacation</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=drjxnc9qYsQ&genid=tnr_bsh_bllt&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=bllt" target="_blank">The Way to Dress in Banff & Lake Louise</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=zdaRHEDDZN&genid=tnr_bsh_apres&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=apres" target="_blank">How to Apres in Banff & Lake Louise</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=M38pRQVapnc&genid=tnr_ta_winter&utm_source=tnr&utm_medium=paid_referrer&utm_content=ta&utm_campaign=winter" target="_blank">Travel Alberta Winter Video</a></li>
+                                    <li><a href="https://www.banfflakelouise.com/park-webcams?genid=tnr_bsh_webcams&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=webcams" target="_blank">More >>></a></li>
+                                 </ul>
+                            </div><!-- end /.inline-box -->
+
+
+
+
+
 						</div><!-- end /.inline-boxes -->
 					</div><!-- end /.tab-box -->
 					<div id="tab-2" class="tab-box">
@@ -36260,10 +36328,10 @@ p.location-blurb-title {
 									</div><!-- end /.p-bottom -->
 								</div><!-- end /.inline-box -->
 								<div class="inline-box promo-links pl-1 plr-1">
-									<h5>play</h5>
+									<h5 class=tab-heading>play</h5>
 									<ul class="no-style">
-										<li><a href="https://www.canadianmountainholidays.com/?utm_source=True%20North%20Rockies&utm_medium=banner&utm_campaign=True%20North%20Rockies&utm_content=Tile%20Ad" target="_blank">Heli-ski</a></li>
-										<li><a href="http://www.banfflakelouise.com/ski-snowboard?genid=truenorth_bllt_ski&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=ski" target="_blank">Ski & Snowboarding</a></li>
+										<li><a href="https://www.cmhheli.com/heli-skiing?utm_source=True%2520North%2520Rockies&utm_medium=banner&utm_campaign=True%2520North%2520Rockies%2520S19&utm_content=Tile%2520Ad" target="_blank">Heli-ski</a></li>
+										<li><a href="https://www.skibig3.com/three-banff-lake-louise-ski-resorts/?genid=tnr_bsh_ski_big3&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=ski_big3" target="_blank">Ski & Snowboarding</a></li>
 										<li><a href="http://www.chateaumountainsports.com/?genid=truenorth_bllt_rentals&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=rentals" target="_blank">Ski, Skate & Snow Equipment Rentals</a></li>
 										<li><a href="http://www.fairmont.com/lake-louise/promotions/true-north-rockies/?genid=truenorth_cll_stay_play&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=stay_play" target="_blank">SnowShoe</a></li>
 										<li><a href="http://yamnuska.com/ice-climbing/?genid=truenorth_bllt_ice&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=ice" target="_blank">Ice Climbing</a></li>
@@ -36275,13 +36343,14 @@ p.location-blurb-title {
 									</ul>
 								</div><!-- end /.inline-box -->
 								<div class="inline-box promo-links pl-1 plr-2">
-									<h5>relax</h5>
+									<h5 class=tab-heading>relax</h5>
 									<ul class="no-style link-mrbtm">
-										<li><a href="http://www.fairmont.com/lake-louise/spa/?genid=truenorth_cll_spa&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=spa" target="_blank">Hotel Spa</a></li>
+										<li><a href="http://www.fairmont.com/lake-louise/spa/?genid=truenorth_cll_spa&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=spa" target="_blank">Fairmont Spa</a></li>
+                                        <li><a href="https://www.lakelouisewellness.com/?genid=truenorth_llw_explore&utm_campaign=explore&utm_content=llw&utm_medium=paid_referrer&utm_source=truenorth" target="_blank">Lake Louise Wellness</a></li>
 										<li><a href="https://www.banfflakelouise.com/banff-hot-springs?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Hot Springs</a></li>
 										<li><a href="https://www.banfflakelouise.com/spa-wellness?genid=truenorth_bllt_wellness&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=wellness" target="_blank">More>>></a></li>
 									</ul>
-									<h5>eat & drink</h5>
+									<h5 class=tab-heading>eat & drink</h5>
 									<ul class="no-style">
 										<li><a href="http://www.fairmont.com/lake-louise/dining/?genid=truenorth_cll_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=dining" target="_blank">Fairmont Dining</a></li>
 										<li><a href="http://www.thealpinesocial.com/ ?genid=truenorth_as_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=as&utm_campaign=dining" target="_blank">Alpine Social</a></li>
@@ -36289,24 +36358,36 @@ p.location-blurb-title {
 									</ul>
 								</div><!-- end /.inline-box -->
 								<div class="inline-box promo-links pl-1 plr-3">
-									<h5>explore & see</h5>
+									<h5 class=tab-heading>explore & see</h5>
 									<ul class="no-style">
 										<li><a href="http://www.banffgondola.com/?genid=truenorth_bg_tnr17&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bg&utm_campaign=tnr17" target="_blank">Banff Gondola</a></li>
-										<li><a href="https://www.banfflakelouise.com/sightseeing-tours?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Wildlife Viewing</a></li>
+										<li><a href="https://www.banfflakelouise.com/blog/wildlife-banff-national-park" target="_blank">Wildlife Viewing</a></li>
 										<li><a href="https://www.banfflakelouise.com/dog-sledding?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Sled Dog Tours</a></li>
 										<li><a href="https://www.banfflakelouise.com/shopping?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Avenue Shopping</a></li>
 									</ul>
+                                    <h5 class=tab-heading>events</h5>
+                                    <ul class="no-style">
+                                        <li><a href="https://www.banfflakelouise.com/banff-christmas-market?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Christmas Market</a></li>
+                                        <li><a href="https://www.banfflakelouise.com/SantaClausParade?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Santa Claus Parade</a></li>
+                                        <li><a href="https://www.banfflakelouise.com/snowdays?genid=truenorth_bllt_snowdays&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=snowdays" target="_blank">SnowDays</a></li>
+                                        <li><a href="http://www.fairmont.com/lake-louise/promotions/pond-hockey/?genid=truenorth_cll_shinny&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=shinny" target="_blank">Pond Hockey Classic</a></li>
+                                        <li><a href="https://www.banfflakelouise.com/ice-magic-festival?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Ice Magic Festival</a></li>
+                                        <li><a href="http://www.lakelouisewellness.com?genid=truenorth_cll_retreats&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=retreats" target="_blank">Wellness Retreats</a></li>
+                                    </ul>
 								</div><!-- end /.inline-box -->
 								<div class="inline-box promo-links pl-2 plr-4">
-									<h5>events</h5>
-									<ul class="no-style">
-										<li><a href="https://www.banfflakelouise.com/banff-christmas-market?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Banff Christmas Market</a></li>
-										<li><a href="https://www.banfflakelouise.com/SantaClausParade?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Santa Claus Parade</a></li>
-										<li><a href="https://www.banfflakelouise.com/snowdays?genid=truenorth_bllt_snowdays&utm_source=truenorth&utm_medium=paid_referrer&utm_content=bllt&utm_campaign=snowdays" target="_blank">SnowDays</a></li>
-										<li><a href="http://www.fairmont.com/lake-louise/promotions/pond-hockey/?genid=truenorth_cll_shinny&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=shinny" target="_blank">Pond Hockey Classic</a></li>
-										<li><a href="https://www.banfflakelouise.com/ice-magic-festival?utm_source=naconsumer&utm_medium=web&utm_term=links&utm_content=winter&utm_campaign=truenorth" target="_blank">Ice Magic Festival</a></li>
-										<li><a href="http://www.lakelouisewellness.com?genid=truenorth_cll_retreats&utm_source=truenorth&utm_medium=paid_referrer&utm_content=cll&utm_campaign=retreats" target="_blank">Wellness Retreats</a></li>
-									</ul>
+								     <h5 class=tab-heading>Web cams & Videos</h5>
+                                     <ul class="no-style">
+                                        <li><a href="http://cams.skilouise.com/cam9.jpg" target="_blank">Fairmont Chateau Lake Louise WebCam</a></li>
+                                        <li><a href="https://www.skilouise.com/conditions/mountain-cam.php" target="_blank">Lake Louise Ski Resort Cam</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=drjxnc9qYsQ&genid=tnr_bsh_bllt&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=bllt" target="_blank">The Way to Dress in Banff & Lake Louise</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=fCPe0np2UeE&genid=tnr_bsh_bllt&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=bllt" target="_blank">The Way to Get Around in Banff & Lake Louise</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=zdaRHEDDZN&genid=tnr_bsh_apres&utm_source=tnr&utm_medium=paid_referrer&utm_content=bsh&utm_campaign=apres" target="_blank">How to Apres in Banff & Lake Louise</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=M38pRQVapnc&genid=tnr_ta_winter&utm_source=tnr&utm_medium=paid_referrer&utm_content=ta&utm_campaign=winter" target="_blank">Travel Alberta Winter Video</a></li>
+                                        <li><a href="https://www.verse.com/video/7066-shelli-les-ice-magic-that-lasts/" target="_blank">Ice Magic Festival Video</a></li>
+                                        <li><a href="https://youtu.be/jJjfg3QuWp0 " target="_blank">SnowDays</a></li>
+                                  
+                                    </ul>
 								</div><!-- end /.inline-box -->
 							</div><!-- end /.inline-boxes -->
 						</div><!-- end /.inline-boxes -->
@@ -36331,49 +36412,61 @@ p.location-blurb-title {
 								</div><!-- end /.p-bottom -->
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-1">
-								<h5>play</h5>
+								<h5 class=tab-heading>play</h5>
 								<ul class="no-style">
-									<li><a href="http://www.jasper.travel/shareholders/rockies-heli-canada/?genid=truenorth_jt_heli&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=heli" target="_blank">Heli-ski</a></li>
+									<li><a href="https://www.jasper.travel/shareholders/rockies-heli-canada/?genid=truenorth_jt_heli&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=heli" target="_blank">Heli-ski</a></li>
 									<li><a href="http://www.skimarmot.com/USA?genid=truenorth_sm_ski&utm_source=truenorth&utm_medium=paid_referrer&utm_content=sm&utm_campaign=ski" target="_blank">Ski & Snowboarding</a></li>
 									<li><a href="http://www.jasper.travel/things-to-do/category/snowshoeing/?genid=truenorth_jt_snowshoe&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=snowshoe" target="_blank">SnowShoe</a></li>
 									<li><a href="http://www.jasper.travel/things-to-do/category/ice-climbing/?genid=truenorth_jt_ice&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=ice" target="_blank">Ice Climbing</a></li>
-									<li><a href="http://www.jasper.travel/things-to-do/category/sleigh-rides/?genid=truenorth_jt_rides&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=rides" target="_blank">Sleigh Rides</a></li>
-									<li><a href="http://www.fairmont.com/jasper/promotions/true-north-rockies/?genid=true_north_jpl_99_ways&utm_source=true_north&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=99_ways" target="_blank">Ice Skating</a></li>
-									<li><a href="http://www.fairmont.com/jasper/promotions/true-north-rockies/?genid=true_north_jpl_99_ways&utm_source=true_north&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=99_ways" target="_blank">Tobagganing</a></li>
-									<li><a href="https://www.jasper.travel/darksky/" target="_blank">Starry Nights</a></li>
+								
+                                    <li><a href="https://www.jasper.travel/things-to-do/category/dark-sky-preserve/?genid=truenorth_jt_star&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=star" target="_blank">Explore Jaspers Dark Sky</a></li>
+                                    <li><a href="https://www.fairmont.com/jasper/promotions/true-north-rockies/?genid=true_north_jpl_99_ways&utm_source=true_north&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=99_ways" target="_blank">Tobagganing, Fat Tire Biking & More!</a></li>
+
 									<li><a href="http://www.jasper.travel/things-to-do/category/hiking-walks/?genid=truenorth_jt_hikes&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=hikes" target="_blank">Winter Hikes & Icewalks</a></li>
 									<li><a href="http://www.jasper.travel/things-to-do/?genid=truenorth_jt_more&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=more" target="_blank">More>>>></a></li>
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-2">
-								<h5>relax</h5>
+								<h5 class=tab-heading>relax</h5>
 								<ul class="no-style link-mrbtm">
 									<li><a href="http://www.fairmont.com/jasper/spa/?genid=truenorth_jpl_spa&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=spa" target="_blank">Hotel Spa</a></li>
-									<li><a href="http://www.jasper.travel/things-to-do/category/spa/?genid=truenorth_jt_spa&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=spa" target="_blank">More>>></a></li>
+									<li><a href="https://www.jasper.travel/things-to-do/?genid=truenorth_jt_more&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=more" target="_blank">More>>></a></li>
 								</ul>
-								<h5>eat & drink</h5>
+								<h5 class=tab-heading>eat & drink</h5>
 								<ul class="no-style">
 									<li><a href="http://www.fairmont.com/jasper/dining/?genid=truenorth_jpl_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=dining" target="_blank">Fairmont Dining</a></li>
 									<li><a href="http://www.orsojasper.com/?genid=truenorth_oj_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=oj&utm_campaign=dining" target="_blank">ORSO</a></li>
+
+                                    <li><a href="https://www.fairmont.com/jasper/dining/theemeraldloungeandpatio/?genid=tnr_jpl_emerald_lounge&utm_source=tnr&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=emerald_lounge" target="_blank">Emerald Lounge</a></li>
+
 									<li><a href="http://www.jasper.travel/what-to-eat/?genid=truenorth_jt_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=dining" target="_blank">Jasper Dining Options</a></li>
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-3">
-								<h5>explore & see</h5>
+								<h5 class=tab-heading>explore & see</h5>
 								<ul class="no-style">
 									<li><a href="http://www.sundogtours.com/package/maligne-canyon-icewalk-tour-jasper-alberta/?genid=truenorth_sd_icewalk&utm_source=truenorth&utm_medium=paid_referrer&utm_content=sd&utm_campaign=icewalk" target="_blank">Maligne Canyon Icewalk</a></li>
 									<li><a href="http://www.sundogtours.com/package/wildlife-discovery-tour-2/?genid=truenorth_sd_wildlife&utm_source=truenorth&utm_medium=paid_referrer&utm_content=sd&utm_campaign=wildlife" target="_blank">Wildlife Viewing</a></li>
 									<li><a href="http://www.sundogtours.com/package/fairmont-friendly/?genid=truenorth_sd_tours&utm_source=truenorth&utm_medium=paid_referrer&utm_content=sd&utm_campaign=tours" target="_blank">Tours</a></li>
 									<li><a href="https://www.jasper.travel/things-to-do/category/dogsledding/?genid=truenorth_jt_dog&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=dog" target="_blank">Sled Dog Tours</a></li>
+                                    <h5 class=tab-heading>events</h5>
+                                <ul class="no-style">
+                                    <li><a href="http://www.jasper.travel/january/?genid=truenorth_jt_jan&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=jan" target="_blank">Jasper In January</a></li>
+                                    <li><a href="http://www.fairmont.com/jasper/special-offers/hotel-offers/special-events/jasper-beer-and-barley-summit/?genid=truenorth_jpl_beer&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=beer" target="_blank">Jasper Beer & Barley Summit</a></li>
+                                    <li><a href="http://www.fairmont.com/jasper/special-offers/hotel-offers/special-events/devour-film-festival/?genid=truenorth_jpl_food&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=food" target="_blank">Devour! Food Film Festival</a></li>
+                                    <li><a href="http://www.fairmont.com/jasper/special-offers/hotel-offers/signature/thepjparty/?genid=truenorth_jpl_pj&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=pj" target="_blank">Pj Party</a></li>
+                                    <li><a href="https://www.fairmont.com/jasper/special-offers/hotel-offers/celebration/jasper-festival-of-christmas/?genid=tnr_jpl_foc&utm_source=tnr&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=foc" target="_blank">Festival of Christmas</a></li>
+                                </ul>
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-2 plr-4">
-								<h5>events</h5>
+								<h5 class=tab-heading>Web cams & Videos</h5>
 								<ul class="no-style">
-									<li><a href="http://www.jasper.travel/january/?genid=truenorth_jt_jan&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jt&utm_campaign=jan" target="_blank">Jasper In January</a></li>
-									<li><a href="http://www.fairmont.com/jasper/special-offers/hotel-offers/special-events/jasper-beer-and-barley-summit/?genid=truenorth_jpl_beer&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=beer" target="_blank">Jasper Beer & Barley Summit</a></li>
-									<li><a href="http://www.fairmont.com/jasper/special-offers/hotel-offers/special-events/devour-film-festival/?genid=truenorth_jpl_food&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=food" target="_blank">Devour! Food Film Festival</a></li>
-									<li><a href="http://www.fairmont.com/jasper/special-offers/hotel-offers/signature/thepjparty/?genid=truenorth_jpl_pj&utm_source=truenorth&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=pj" target="_blank">Pj Party</a></li>
+									<li><a href="https://www.skimarmot.com/mountain-report?genid=tnr_jpl_marmot&utm_source=tnr&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=marmot" target="_blank">Marmot Basin</a></li>
+									<li><a href="http://www.jasperskytram.com/visit/webcam-weather?genid=tnr_jpl_webcam&utm_source=tnr&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=webcam" target="_blank">Jasper SkyTram</a></li>
+									<li><a href="http://www.youtube.com/watch?v=Mqb0jJAm1QA&genid=tnr_jpl_winter&utm_source=tnr&utm_medium=paid_referrer&utm_content=jpl&utm_campaign=winter" target="_blank">Fairmont Jasper Winter Video</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=XeyFvE5DLYs&genid=tnr_tj_winter&utm_source=tnr&utm_medium=paid_referrer&utm_content=tj&utm_campaign=winter" target="_blank">Tourism Jasper Winter Video</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=M38pRQVapnc&genid=tnr_ta_winter&utm_source=tnr&utm_medium=paid_referrer&utm_content=ta&utm_campaign=winter" target="_blank">Travel Alberta Winter Video</a></li>
 								</ul>
 							</div><!-- end /.inline-box -->
 						</div><!-- end /.inline-boxes -->
@@ -36398,25 +36491,25 @@ p.location-blurb-title {
 								</div><!-- end /.p-bottom -->
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-1">
-								<h5>arriving</h5>
+								<h5 class=tab-heading>arriving</h5>
 								<ul class="no-style link-mrbtm">
 									<li><a href="http://flyeia.com/coming-and-going#sm.0001nqvw0uizleauqm01v7gqbmp41" target="_blank">YEG</a></li>
 									<li><a href="https://www.sundogtours.com/package/fairmont-friendly/" target="_blank">SunDog Tours</a></li>
 								</ul>
-								<h5>play</h5>
+								<h5 class=tab-heading>play</h5>
 								<ul class="no-style">
 									<li><a href="https://exploreedmonton.com/attractions/Skating-Outdoors" target="_blank">Skating</a></li>
-									<li><a href="https://exploreedmonton.com/attractions/Tobogganing-and-Kicksledding" target="_blank">Kicksledding</a></li>
+									<li><a href="https://exploreedmonton.com/attractions/Tobogganing-and-Kicksledding" target="_blank">Tobogganing & Kicksledding</a></li>
 									<li><a href="https://exploreedmonton.com/experiences/explore-winters-playground" target="_blank">SnowShoe</a></li>
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-2">
-								<h5>shop</h5>
+								<h5 class=tab-heading>shop</h5>
 								<ul class="no-style link-mrbtm">
 									<li><a href="http://www.wem.ca/" target="_blank">West Edmonton Mall</a></li>
 									<li><a href="http://www.fairmont.com/macdonald-edmonton/destination-guide/edmonton-shopping/" target="_blank">Edmonton City Centre</a></li>
 								</ul>
-								<h5>eat & drink</h5>
+								<h5 class=tab-heading>eat & drink</h5>
 								<ul class="no-style">
 									<li><a href="http://www.fairmont.com/macdonald-edmonton/dining/" target="_blank">Fairmont Dining</a></li>
 									<li><a href="http://www.fairmont.com/macdonald-edmonton/dining/harvestroom/" target="_blank">The Harvest Room</a></li>
@@ -36427,21 +36520,25 @@ p.location-blurb-title {
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-3">
-								<h5>explore & see</h5>
+								<h5 class=tab-heading>explore & see</h5>
 								<ul class="no-style">
 									<li><a href="http://icecastles.com/edmonton/" target="_blank">Ice Castles</a></li>
 									<li><a href="https://exploreedmonton.com/festivals-and-events/SkirtsAfire-Festival" target="_blank">SkirtsAfire Festival</a></li>
 									<li><a href="https://exploreedmonton.com/attractions/Northern-Lights" target="_blank">Northern Lights</a></li>
 								</ul>
+                                <h5 class=tab-heading>events</h5>
+                                <ul class="no-style">
+                                    <li><a href="https://exploreedmonton.com/festivals-and-events/Deep-Freeze" target="_blank">Deep Freeze: A Byzantine Winter Festival</a></li>
+                                    <li><a href="https://exploreedmonton.com/festivals-and-events/Boardwalk-Ice-on-Whyte" target="_blank">Ice on Whyte Festival</a></li>
+                                    <li><a href="https://exploreedmonton.com/festivals-and-events/Flying-Canoe-Adventure-Walk" target="_blank">Flying Canoë Volant</a></li>
+                                    <li><a href="https://exploreedmonton.com/experiences/explore-winters-playground" target="_blank">Silver Skate Festival</a></li>
+                                </ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-2 plr-4">
-								<h5>events</h5>
-								<ul class="no-style">
-									<li><a href="https://exploreedmonton.com/festivals-and-events/Deep-Freeze" target="_blank">Deep Freeze: A Byzantine Winter Festival</a></li>
-									<li><a href="https://exploreedmonton.com/festivals-and-events/Boardwalk-Ice-on-Whyte" target="_blank">Ice on Whyte Festival</a></li>
-									<li><a href="https://exploreedmonton.com/festivals-and-events/Flying-Canoe-Adventure-Walk" target="_blank">Flying Canoë Volant</a></li>
-									<li><a href="https://exploreedmonton.com/experiences/explore-winters-playground" target="_blank">Silver Skate Festival</a></li>
-								</ul>
+							     <h5 class=tab-heading>Web cams & Videos</h5>
+                                 <ul class="no-style">
+                                    <li><a href="https://youtu.be/moOmx-kV81A" target="_blank">Tourism Edmonton</a></li>
+                                </ul>
 							</div><!-- end /.inline-box -->
 						</div><!-- end /.inline-boxes -->
 					</div><!-- end /.tab-box -->
@@ -36465,12 +36562,12 @@ p.location-blurb-title {
 								</div><!-- end /.p-bottom -->
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-1">
-								<h5>arriving</h5>
+								<h5 class=tab-heading>arriving</h5>
 								<ul class="no-style link-mrbtm">
 									<li><a href="http://www.yyc.com/" target="_blank">YYC</a></li>
 									<li><a href="https://www.sundogtours.com/package/fairmont-friendly/" target="_blank">SunDog Tours</a></li>
 								</ul>
-								<h5>play</h5>
+								<h5 class=tab-heading>play</h5>
 								<ul class="no-style">
 									<li><a href="http://www.visitcalgary.com/things-to-do/sports-recreation/skiing-snowboarding/winsport" target="_blank">WinSports Canada Olympic Park</a></li>
 									<li><a href="http://www.calgary.ca/CSPS/Parks/Pages/Locations/Outdoor-skating-rinks.aspx" target="_blank">Skating</a></li>
@@ -36478,7 +36575,7 @@ p.location-blurb-title {
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-2">
-								<h5>shop & relax</h5>
+								<h5 class=tab-heading>shop & relax</h5>
 								<ul class="no-style link-mrbtm">
 									<li><a href="http://www.visitcalgary.com/things-to-do/sports-recreation/spa-experiences" target="_blank">Spas</a></li>
 									<li><a href="https://www.crossironmills.com/" target="_blank">CrossIron Mills</a></li>
@@ -36489,17 +36586,17 @@ p.location-blurb-title {
 									<li><a href="https://www.cfshops.com/chinook-centre.html" target="_blank">CF Chinook Centre</a></li>
 									<li><a href="http://inglewoodyyc.ca/" target="_blank">Inglewood</a></li>
 								</ul>
-								<h5>eat & drink</h5>
+								<h5 class=tab-heading>eat & drink</h5>
 								<ul class="no-style">
 									<li><a href="http://www.fairmont.com/palliser-calgary/dining/?genid=truenorth_pal_dining&utm_source=truenorth&utm_medium=paid_referrer&utm_content=pal&utm_campaign=dining" target="_blank">Fairmont Dining</a></li>
-									<li><a href="http://www.fairmont.com/palliser-calgary/dining/the-oakroom/?genid=truenorth_pal_oak&utm_source=truenorth&utm_medium=paid_referrer&utm_content=pal&utm_campaign=oak" target="_blank">The Oak Room</a></li>
+									<li><a href="https://www.fairmont.com/palliser-calgary/dining/the-oakroom/?genid=truenorth_pal_oak&utm_source=truenorth&utm_medium=paid_referrer&utm_content=pal&utm_campaign=oak" target="_blank">The Oak Room</a></li>
 									<li><a href="http://www.fairmont.com/palliser-calgary/dining/afternoon-tea/?genid=truenorth_pal_tea&utm_source=truenorth&utm_medium=paid_referrer&utm_content=pal&utm_campaign=tea" target="_blank">High Tea</a></li>
 									<li><a href="http://www.visitcalgary.com/things-to-do/nightlife" target="_blank">Nightlife</a></li>
 									<li><a href="http://www.visitcalgary.com/things-to-do/restaurants-dining" target="_blank">Calgary Dining Options</a></li>
 								</ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-1 plr-3">
-								<h5>explore & see</h5>
+								<h5 class=tab-heading>explore & see</h5>
 								<ul class="no-style">
 									<li><a href="https://www.heritagepark.ca/" target="_blank">Heritage Park Historical Village</a></li>
 									<li><a href="http://www.visitcalgary.com/nearby/things-to-do/arts-attraction/attractions/calgary-zoo" target="_blank">ZooLights</a></li>
@@ -36509,16 +36606,22 @@ p.location-blurb-title {
 									<li><a href="http://glenbow.org/" target="_blank">Glenbow Museum</a></li>
 									<li><a href="http://www.sparkscience.ca/" target="_blank">TELUS Spark</a></li>
 								</ul>
+                                <h5 class=tab-heading>events</h5>
+                                <ul class="no-style">
+                                    <li><a href="http://www.visitcalgary.com/things-to-do/festivals/high-performance-rodeo-0" target="_blank">High Performance Rodeo Festival</a></li>
+                                    <li><a href="http://www.visitcalgary.com/things-to-do/festivals/calgary-midwinter-bluesfest" target="_blank">Calgary Mid Winter BluesFest</a></li>
+                                    <li><a href="http://www.calgarydowntown.com/the-big-taste" target="_blank">Big Taste Calgary Foodie Festival</a></li>
+                                    <li><a href="https://www.nhl.com/flames/schedule" target="_blank">Calgary Flames</a></li>
+                                    <li><a href="http://www.calgaryfolkfest.com/concerts-and-events/block-heater/" target="_blank">Block Heater</a></li>
+                                </ul>
 							</div><!-- end /.inline-box -->
 							<div class="inline-box promo-links pl-2 plr-4">
-								<h5>events</h5>
-								<ul class="no-style">
-									<li><a href="http://www.visitcalgary.com/things-to-do/festivals/high-performance-rodeo-0" target="_blank">High Performance Rodeo Festival</a></li>
-									<li><a href="http://www.visitcalgary.com/things-to-do/festivals/calgary-midwinter-bluesfest" target="_blank">Calgary Mid Winter BluesFest</a></li>
-									<li><a href="http://www.calgarydowntown.com/the-big-taste" target="_blank">Big Taste Calgary Foodie Festival</a></li>
-									<li><a href="https://www.nhl.com/flames/schedule" target="_blank">Calgary Flames</a></li>
-									<li><a href="http://www.calgaryfolkfest.com/concerts-and-events/block-heater/" target="_blank">Block Heater</a></li>
-								</ul>
+								 <h5 class=tab-heading>Web cams & Videos</h5>
+                                 <ul class="no-style">
+                                    <li><a href="https://balticlivecam.com/cameras/canada/calgary/central-memorial-park/" target="_blank">Calgary Webcam</a></li>
+                                    <li><a href="https://youtu.be/WHv887RWnnc" target="_blank">Calgary - Where Canada Happens PT 1</a></li>
+                                    <li><a href="https://youtu.be/y8W-DC9euIQ " target="_blank">Calgary - Where Canada Happens PT 2</a></li>
+                                </ul>
 							</div><!-- end /.inline-box -->
 						</div><!-- end /.inline-boxes -->
 					</div><!-- end /.tab-box -->
@@ -36531,8 +36634,8 @@ p.location-blurb-title {
 		<div class="container">
 			<div class="default-title">
 				<!-- <h3>Enter to Win True North Rockies #welovewinter Contest.</h3> -->
-				<h3>True North Rockies #welovewinter Contest.</h3>
-				<p>Congratulations to @alicethiue, the winner of our #welovewinter contest for her photo “Fire and Ice” taken Yosemite National Park. Alice will join us on a 9 day epic adventure through the Canadian Rockies in February. Follow the journey on Instagam at #welovewinter.</p>
+				<h3 id=contest-title>True North Rockies Contest  - #WELOVEWINTER</h3>
+				<p>Do you Love Winter? Follow us on <a class=social-media-link href="https://www.facebook.com/TrueNorthRockies" target="_blank">Facebook</a> and <a class=social-media-link href="https://www.instagram.com/truenorthrockies/" target="_blank">Instagram</a> to learn how you can enter to win a True North trip for two to the Canadian Rockies.</p>
 				<!-- <p>The Canadian Rocky Mountains in Alberta offer some of the world’s most stunning backdrops for photographers. This winter, we want you to experience it for yourself and share it with the world!  One lucky winner will join us on an epic, nine day journey between Calgary, Banff, Lake Louise, Jasper and Edmonton. You will experience and share the true beauty, true wonder and true adventure of winter in Alberta, while enjoying the true luxury of Fairmont Hotels & Resorts.<br><br>TO ENTER:</p>
 				<ol>
 					<li>1. Follow <a href="https://www.instagram.com/truenorthrockies/" target="_blank">@truenorthrockies</a> on Instagram</li>
@@ -36544,10 +36647,13 @@ p.location-blurb-title {
 			</div><!-- end /.default-title -->
 		</div><!-- end /.container -->
 		<div id="instafeed">
-			<div class="instawrapper"></div>
+<!-- 			<div class="instawrapper"></div>
 			<script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
 			<link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-			<ul class="juicer-feed" data-feed-id="true-north-rockies" data-after="initFeed()" data-per="45"></ul>
+			<ul class="juicer-feed" data-feed-id="true-north-rockies" data-after="initFeed()" data-per="45"></ul> -->
+            <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+<ul class="juicer-feed" data-feed-id="true-north-rockies"></ul>
 		</div>
 	</div><!-- end /.instagram-section -->
 
@@ -36565,7 +36671,7 @@ p.location-blurb-title {
 					<ul class="bw-logos no-style">
 						<li><a href="https://www.banfflakelouise.com" target="_blank"><img src="images/logos/banff_lake_louise.png" alt=""></a></li>
 						<li><a href="http://www.jasper.travel/" target="_blank"><img src="images/logos/jasper_canada.png" alt=""></a></li>
-						<li><a href="http://www.visitcalgary.com/" target="_blank"><img src="images/logos/calgary-tourism.png" alt=""></a></li>
+						<li><a href="https://www.skibig3.com/hotels-and-lodging/fairmont-resorts/?utm_source=farimont&utm_medium=link&utm_campaign=True%20North%20Rockies" target="_blank"><img src="images/logos/calgary-tourism.png" alt=""></a></li>
 						<li><a href="https://exploreedmonton.com/" target="_blank"><img src="images/logos/explore_edmonton.png" alt=""></a></li>
 						<li><a href="https://www.skimarmot.com/" target="_blank"><img src="images/logos/marmot_basin.png" alt=""></a></li>
 					</ul>
